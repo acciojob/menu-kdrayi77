@@ -1,4 +1,4 @@
-const data = [
+const menu = [
   {
     id: 1,
     title: 'buttermilk pancakes',
@@ -72,4 +72,4 @@ const data = [
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
 ];
-export default data;
+export default menu;
