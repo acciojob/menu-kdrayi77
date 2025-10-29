@@ -6,19 +6,6 @@ import Menu from "./Menu"
 import '../styles/App.css';
 
 const allCategories = ["all","breakfast","lunch","shakes"]
-// const allCat = items.map(item=>item.category)
-// const tempSet = new Set(allCat)
-// let tempArr = [...tempSet]
-
-// 1st way
-// const finalArr = ["all",...tempArr]
-
-//2nd way
-// tempArr.unshift("all")
-// console.log(tempArr,finalArr)
-
-// const allCategories = ["all",...new Set(items.map((item)=>item.category))]
-
 const App = () => {
 
     const [menuItems,setMenuItems] = useState(items)
